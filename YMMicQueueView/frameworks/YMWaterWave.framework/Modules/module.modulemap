@@ -1,0 +1,6 @@
+framework module YMWaterWave {
+  umbrella header "YMWaterWave.h"
+
+  export *
+  module * { export * }
+}
