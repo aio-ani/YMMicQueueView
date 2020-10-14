@@ -13,7 +13,7 @@
 #import "YMMicSequenceInfo.h"
 #import "YMTool/YMMacro.h"
 #import "YMMicSequenceDelegate.h"
-#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage_Yumai/SDWebImage.h>
 #import "YMMagicInfo.h"
 #import "YMQueueConfig.h"
 

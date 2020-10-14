@@ -1,0 +1,20 @@
+PODS:
+  - SDWebImage_Yumai (0.0.2)
+  - YMTool (0.0.1)
+
+DEPENDENCIES:
+  - SDWebImage_Yumai
+  - YMTool
+
+SPEC REPOS:
+  https://github.com/aio-ani/repotest.git:
+    - SDWebImage_Yumai
+    - YMTool
+
+SPEC CHECKSUMS:
+  SDWebImage_Yumai: f9701f8d2f474e743335618545de8c0c9fc0678e
+  YMTool: c5fcaff5b113785f0192fe5ac79fa4f0eec39e26
+
+PODFILE CHECKSUM: 79fcd6f8a08b94f96b792d02e8aa77fb7129c613
+
+COCOAPODS: 1.9.3

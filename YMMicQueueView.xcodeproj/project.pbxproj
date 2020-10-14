@@ -30,7 +30,7 @@
 		305AFBD124F1229600405B60 /* YMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFBCF24F1229600405B60 /* YMBaseView.m */; };
 		305AFBD524F123A700405B60 /* YMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFBD324F123A700405B60 /* YMObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		305AFBD624F123A700405B60 /* YMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFBD424F123A700405B60 /* YMObject.m */; };
-		30BA3853250881CC001F9BEA /* YMWaterWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA3851250881C4001F9BEA /* YMWaterWave.framework */; platformFilter = ios; };
+		307004D42536E0EA00D36F7D /* YMWaterWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307004D32536E0EA00D36F7D /* YMWaterWave.framework */; };
 		30F0C28324F8EA03004D92D4 /* YMMicSequenceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C28224F8EA02004D92D4 /* YMMicSequenceInfo.m */; };
 		30F0C28624F8EBD4004D92D4 /* YMMidEmceeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F0C28424F8EBD4004D92D4 /* YMMidEmceeView.h */; };
 		30F0C28724F8EBD4004D92D4 /* YMMidEmceeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C28524F8EBD4004D92D4 /* YMMidEmceeView.m */; };
@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10190D6657FE40DC51D9E074 /* Pods-YMMicQueueView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.release.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.release.xcconfig"; sourceTree = "<group>"; };
 		305AFB1824EF9A9200405B60 /* YMMicQueueView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YMMicQueueView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		305AFB1B24EF9A9200405B60 /* YMMicQueueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicQueueView.h; sourceTree = "<group>"; };
 		305AFB1C24EF9A9200405B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,13 +77,12 @@
 		305AFBCF24F1229600405B60 /* YMBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMBaseView.m; sourceTree = "<group>"; };
 		305AFBD324F123A700405B60 /* YMObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMObject.h; sourceTree = "<group>"; };
 		305AFBD424F123A700405B60 /* YMObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMObject.m; sourceTree = "<group>"; };
-		30BA3851250881C4001F9BEA /* YMWaterWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YMWaterWave.framework; path = ../../PeiPei/libs/YMWaterWave.framework; sourceTree = "<group>"; };
+		307004D32536E0EA00D36F7D /* YMWaterWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YMWaterWave.framework; sourceTree = "<group>"; };
 		30F0C28224F8EA02004D92D4 /* YMMicSequenceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMicSequenceInfo.m; sourceTree = "<group>"; };
 		30F0C28424F8EBD4004D92D4 /* YMMidEmceeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMMidEmceeView.h; sourceTree = "<group>"; };
 		30F0C28524F8EBD4004D92D4 /* YMMidEmceeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMidEmceeView.m; sourceTree = "<group>"; };
 		61A7C93D2E1A04DFA0A173FA /* Pods_YMMicQueueView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMMicQueueView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.release.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.release.xcconfig"; sourceTree = "<group>"; };
-		F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.debug.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1075F2C97A5D69A0B39F2C /* Pods-YMMicQueueView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.debug.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				305AFB6424EFA7FE00405B60 /* YMTool.framework in Frameworks */,
-				30BA3853250881CC001F9BEA /* YMWaterWave.framework in Frameworks */,
+				307004D42536E0EA00D36F7D /* YMWaterWave.framework in Frameworks */,
 				8B483B9BBF8B559687BA67DB /* Pods_YMMicQueueView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,16 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14ADC9E8598B97508D2C9A3E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */,
-				6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 		305AFB0E24EF9A9200405B60 = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +114,7 @@
 				305AFB2524EF9A9200405B60 /* YMMicQueueViewTests */,
 				305AFB1924EF9A9200405B60 /* Products */,
 				305AFB6224EFA7FE00405B60 /* Frameworks */,
-				14ADC9E8598B97508D2C9A3E /* Pods */,
+				894C623EA2CA7EDFDCCB48A7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +130,7 @@
 		305AFB1A24EF9A9200405B60 /* YMMicQueueView */ = {
 			isa = PBXGroup;
 			children = (
-				30BA3851250881C4001F9BEA /* YMWaterWave.framework */,
+				307004D22536E0EA00D36F7D /* frameworks */,
 				305AFB1B24EF9A9200405B60 /* YMMicQueueView.h */,
 				305AFBD224F1238000405B60 /* YMBase */,
 				305AFBCD24F116EC00405B60 /* protocol */,
@@ -203,6 +193,24 @@
 				305AFBD424F123A700405B60 /* YMObject.m */,
 			);
 			path = YMBase;
+			sourceTree = "<group>";
+		};
+		307004D22536E0EA00D36F7D /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				307004D32536E0EA00D36F7D /* YMWaterWave.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		894C623EA2CA7EDFDCCB48A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1075F2C97A5D69A0B39F2C /* Pods-YMMicQueueView.debug.xcconfig */,
+				10190D6657FE40DC51D9E074 /* Pods-YMMicQueueView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,7 +509,7 @@
 		};
 		305AFB2D24EF9A9200405B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */;
+			baseConfigurationReference = 6C1075F2C97A5D69A0B39F2C /* Pods-YMMicQueueView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -514,6 +522,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/YMMicQueueView",
 					"\"$(SRCROOT)/../PeiPei/libs\"",
+					"$(PROJECT_DIR)/YMMicQueueView/frameworks",
 				);
 				GCC_PREFIX_HEADER = "YMMicQueueView/YMMicQueueView-PrefixHeader.pch";
 				INFOPLIST_FILE = YMMicQueueView/Info.plist;
@@ -535,7 +544,7 @@
 		};
 		305AFB2E24EF9A9200405B60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */;
+			baseConfigurationReference = 10190D6657FE40DC51D9E074 /* Pods-YMMicQueueView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -548,6 +557,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/YMMicQueueView",
 					"\"$(SRCROOT)/../PeiPei/libs\"",
+					"$(PROJECT_DIR)/YMMicQueueView/frameworks",
 				);
 				GCC_PREFIX_HEADER = "YMMicQueueView/YMMicQueueView-PrefixHeader.pch";
 				INFOPLIST_FILE = YMMicQueueView/Info.plist;

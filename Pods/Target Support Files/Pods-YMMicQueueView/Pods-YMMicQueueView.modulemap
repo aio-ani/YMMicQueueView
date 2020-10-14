@@ -1,0 +1,6 @@
+framework module Pods_YMMicQueueView {
+  umbrella header "Pods-YMMicQueueView-umbrella.h"
+
+  export *
+  module * { export * }
+}

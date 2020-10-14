@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YMMicQueueView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of YMMicQueueView."
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,10 @@ mic queue proj
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "YMMicQueueView", "YMMicQueueView/**/*.{h,m}"
+  spec.exclude_files = "YMMicQueueView/Exclude"
 
-  spec.public_header_files = ['YMMicQueueView/YMMicQueueView.h']
+  spec.public_header_files = ['YMMicQueueView/YMMicQueueView.h','YMMicQueueView/protocol/YMMicSequenceViewDelegate.h','YMMicQueueView/YMBase/YMBaseView.h','YMMicQueueView/YMBase/YMObject.h','YMMicQueueView/YMMagicInfo.h','YMMicQueueView/YMMicSequenceInfo','YMMicQueueView/YMVChatType.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicQueueView.h','YMMicQueueView/YMQueueConfig.h']
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -115,6 +115,8 @@ mic queue proj
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
+  spec.prefix_header_file = 'YMMicQueueView/YMMicQueueView-PrefixHeader.pch'
+
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
@@ -134,8 +136,7 @@ mic queue proj
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SDWebImage", "~> 5.9.1"
-  spec.dependency "SDWebImageWebPCoder", "~> 0.6.1"
+  spec.dependency "SDWebImage_Yumai", "~> 0.0.2"
   spec.ios.dependency "YMTool", "~> 0.0.1"
 
 
