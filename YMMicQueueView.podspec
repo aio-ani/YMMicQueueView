@@ -121,7 +121,7 @@ mic queue proj
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.ios.vendored_frameworks = "YMMicQueueView/frameworks/*.framework"
+  spec.ios.vendored_frameworks = "YMMicQueueView/**/*.framework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
