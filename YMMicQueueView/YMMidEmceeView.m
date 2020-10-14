@@ -8,7 +8,7 @@
 
 #import "YMMidEmceeView.h"
 #import <YMTool/UIView+YMView.h>
-#import <SDAnimatedImageView.h>
+#import <SDWebImage_Yumai/SDAnimatedImageView.h>
 #import <SDWebImage_Yumai/SDWebImage.h>
 #import <YMWaterWave/YMWaterWave.h>
 #import "YMQueueConfig.h"
