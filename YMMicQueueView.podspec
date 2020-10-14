@@ -121,7 +121,8 @@ mic queue proj
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.ios.vendored_frameworks = "YMMicQueueView/**/*.framework"
+  spec.vendored_frameworks = "**/*.framework"
+  spec.static_framework = true
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -136,6 +137,7 @@ mic queue proj
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64', }
   spec.dependency "SDWebImage_Yumai", "~> 0.0.2"
   spec.ios.dependency "YMTool", "~> 0.0.1"
 

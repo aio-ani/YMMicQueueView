@@ -16,11 +16,11 @@ FOUNDATION_EXPORT const unsigned char YMMicQueueViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <YMMicQueueView/PublicHeader.h>
 
-#import "YMMicSequenceView.h"
-#import "YMMicSequenceInfo.h"
-#import "YMVChatType.h"
-#import "YMMagicInfo.h"
-#import "YMMicSequenceViewDelegate.h"
-#import "YMObject.h"
-#import "YMBaseView.h"
-#import "YMQueueConfig.h"
+#import <YMMicQueueView/YMMicSequenceView.h>
+#import <YMMicQueueView/YMMicSequenceInfo.h>
+#import <YMMicQueueView/YMVChatType.h>
+#import <YMMicQueueView/YMMagicInfo.h>
+#import <YMMicQueueView/YMMicSequenceViewDelegate.h>
+#import <YMMicQueueView/YMObject.h>
+#import <YMMicQueueView/YMBaseView.h>
+#import <YMMicQueueView/YMQueueConfig.h>

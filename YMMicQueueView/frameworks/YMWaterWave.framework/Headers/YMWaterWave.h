@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char YMWaterWaveVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <YMWaterWave/PublicHeader.h>
 
 
-#import "YMWaterVaveView.h"
+#import <YMWaterWave/YMWaterVaveView.h>
