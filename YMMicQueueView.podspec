@@ -94,7 +94,7 @@ mic queue proj
   spec.source_files  = "YMMicQueueView", "YMMicQueueView/**/*.{h,m}"
   spec.exclude_files = "YMMicQueueView/Exclude"
 
-  spec.public_header_files = ['YMMicQueueView/YMMicQueueView.h','YMMicQueueView/protocol/YMMicSequenceViewDelegate.h','YMMicQueueView/YMBase/YMBaseView.h','YMMicQueueView/YMBase/YMObject.h','YMMicQueueView/YMMagicInfo.h','YMMicQueueView/YMMicSequenceInfo','YMMicQueueView/YMVChatType.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicQueueView.h','YMMicQueueView/YMQueueConfig.h']
+  spec.public_header_files = ['YMMicQueueView/YMMicQueueView.h','YMMicQueueView/protocol/YMMicSequenceViewDelegate.h','YMMicQueueView/YMBase/YMBaseView.h','YMMicQueueView/YMBase/YMObject.h','YMMicQueueView/YMMagicInfo.h','YMMicQueueView/YMMicSequenceInfo.h','YMMicQueueView/YMVChatType.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicSequenceView.h','YMMicQueueView/YMMicQueueView.h','YMMicQueueView/YMQueueConfig.h']
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -137,7 +137,13 @@ mic queue proj
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64', }
+#  spec.xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
+#  valid_archs = ['arm64','x86_64'] 
+
+#  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
+#  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  spec.user_target_xcconfig = { 'VALID_ARCHS' => 'x86_64','Excluded_ARCHS' => 'arm64' }
+
   spec.dependency "SDWebImage_Yumai", "~> 0.0.2"
   spec.ios.dependency "YMTool", "~> 0.0.1"
 
