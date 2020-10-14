@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305AFB2224EF9A9200405B60 /* YMMicQueueView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305AFB1824EF9A9200405B60 /* YMMicQueueView.framework */; };
+		305AFB2724EF9A9200405B60 /* YMMicQueueViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB2624EF9A9200405B60 /* YMMicQueueViewTests.m */; };
+		305AFB2924EF9A9200405B60 /* YMMicQueueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB1B24EF9A9200405B60 /* YMMicQueueView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB3424EF9AF100405B60 /* YMMicSequenceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB3224EF9AF100405B60 /* YMMicSequenceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB3524EF9AF100405B60 /* YMMicSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB3324EF9AF100405B60 /* YMMicSequenceView.m */; };
+		305AFB3824EF9B3200405B60 /* YMMicSequenceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB3624EF9B3200405B60 /* YMMicSequenceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB3B24EF9B8A00405B60 /* YMVChatType.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB3A24EF9B8100405B60 /* YMVChatType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB6424EFA7FE00405B60 /* YMTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305AFB6324EFA7FE00405B60 /* YMTool.framework */; platformFilter = ios; };
+		305AFB6D24EFB01500405B60 /* YMMicView.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB6B24EFB01500405B60 /* YMMicView.h */; };
+		305AFB6E24EFB01500405B60 /* YMMicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB6C24EFB01500405B60 /* YMMicView.m */; };
+		305AFB7D24EFB7A100405B60 /* YMTopEmceeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB7B24EFB7A100405B60 /* YMTopEmceeView.h */; };
+		305AFB7E24EFB7A100405B60 /* YMTopEmceeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB7C24EFB7A100405B60 /* YMTopEmceeView.m */; };
+		305AFB8124EFBF4900405B60 /* YMQueueConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB7F24EFBF4900405B60 /* YMQueueConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB8224EFBF4900405B60 /* YMQueueConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB8024EFBF4900405B60 /* YMQueueConfig.m */; };
+		305AFB9224EFF86800405B60 /* YMMicSequenceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB9124EFF86800405B60 /* YMMicSequenceDelegate.h */; };
+		305AFB9524F0C5D000405B60 /* YMMagicInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFB9324F0C5D000405B60 /* YMMagicInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFB9624F0C5D000405B60 /* YMMagicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFB9424F0C5D000405B60 /* YMMagicInfo.m */; };
+		305AFBCA24F1159600405B60 /* YMMicSequenceViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFBC924F1159600405B60 /* YMMicSequenceViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFBCC24F1163100405B60 /* YMTopEmceeViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFBCB24F1163100405B60 /* YMTopEmceeViewDelegate.h */; };
+		305AFBD024F1229600405B60 /* YMBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFBCE24F1229600405B60 /* YMBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFBD124F1229600405B60 /* YMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFBCF24F1229600405B60 /* YMBaseView.m */; };
+		305AFBD524F123A700405B60 /* YMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 305AFBD324F123A700405B60 /* YMObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305AFBD624F123A700405B60 /* YMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 305AFBD424F123A700405B60 /* YMObject.m */; };
+		30BA3853250881CC001F9BEA /* YMWaterWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA3851250881C4001F9BEA /* YMWaterWave.framework */; platformFilter = ios; };
+		30F0C28324F8EA03004D92D4 /* YMMicSequenceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C28224F8EA02004D92D4 /* YMMicSequenceInfo.m */; };
+		30F0C28624F8EBD4004D92D4 /* YMMidEmceeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F0C28424F8EBD4004D92D4 /* YMMidEmceeView.h */; };
+		30F0C28724F8EBD4004D92D4 /* YMMidEmceeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C28524F8EBD4004D92D4 /* YMMidEmceeView.m */; };
+		8B483B9BBF8B559687BA67DB /* Pods_YMMicQueueView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A7C93D2E1A04DFA0A173FA /* Pods_YMMicQueueView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		305AFB2324EF9A9200405B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305AFB0F24EF9A9200405B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305AFB1724EF9A9200405B60;
+			remoteInfo = YMMicQueueView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305AFB1824EF9A9200405B60 /* YMMicQueueView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YMMicQueueView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305AFB1B24EF9A9200405B60 /* YMMicQueueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicQueueView.h; sourceTree = "<group>"; };
+		305AFB1C24EF9A9200405B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305AFB2124EF9A9200405B60 /* YMMicQueueViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMMicQueueViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305AFB2624EF9A9200405B60 /* YMMicQueueViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMMicQueueViewTests.m; sourceTree = "<group>"; };
+		305AFB2824EF9A9200405B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305AFB3224EF9AF100405B60 /* YMMicSequenceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicSequenceView.h; sourceTree = "<group>"; };
+		305AFB3324EF9AF100405B60 /* YMMicSequenceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMMicSequenceView.m; sourceTree = "<group>"; };
+		305AFB3624EF9B3200405B60 /* YMMicSequenceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicSequenceInfo.h; sourceTree = "<group>"; };
+		305AFB3A24EF9B8100405B60 /* YMVChatType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMVChatType.h; sourceTree = "<group>"; };
+		305AFB6324EFA7FE00405B60 /* YMTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YMTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305AFB6B24EFB01500405B60 /* YMMicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicView.h; sourceTree = "<group>"; };
+		305AFB6C24EFB01500405B60 /* YMMicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMMicView.m; sourceTree = "<group>"; };
+		305AFB7B24EFB7A100405B60 /* YMTopEmceeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMTopEmceeView.h; sourceTree = "<group>"; };
+		305AFB7C24EFB7A100405B60 /* YMTopEmceeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTopEmceeView.m; sourceTree = "<group>"; };
+		305AFB7F24EFBF4900405B60 /* YMQueueConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMQueueConfig.h; sourceTree = "<group>"; };
+		305AFB8024EFBF4900405B60 /* YMQueueConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMQueueConfig.m; sourceTree = "<group>"; };
+		305AFB8E24EFF71700405B60 /* YMWaterWave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YMWaterWave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305AFB9124EFF86800405B60 /* YMMicSequenceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicSequenceDelegate.h; sourceTree = "<group>"; };
+		305AFB9324F0C5D000405B60 /* YMMagicInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMagicInfo.h; sourceTree = "<group>"; };
+		305AFB9424F0C5D000405B60 /* YMMagicInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMMagicInfo.m; sourceTree = "<group>"; };
+		305AFBC824F1080200405B60 /* YMMicQueueView-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMMicQueueView-PrefixHeader.pch"; sourceTree = "<group>"; };
+		305AFBC924F1159600405B60 /* YMMicSequenceViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMMicSequenceViewDelegate.h; sourceTree = "<group>"; };
+		305AFBCB24F1163100405B60 /* YMTopEmceeViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMTopEmceeViewDelegate.h; sourceTree = "<group>"; };
+		305AFBCE24F1229600405B60 /* YMBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMBaseView.h; sourceTree = "<group>"; };
+		305AFBCF24F1229600405B60 /* YMBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMBaseView.m; sourceTree = "<group>"; };
+		305AFBD324F123A700405B60 /* YMObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMObject.h; sourceTree = "<group>"; };
+		305AFBD424F123A700405B60 /* YMObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMObject.m; sourceTree = "<group>"; };
+		30BA3851250881C4001F9BEA /* YMWaterWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YMWaterWave.framework; path = ../../PeiPei/libs/YMWaterWave.framework; sourceTree = "<group>"; };
+		30F0C28224F8EA02004D92D4 /* YMMicSequenceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMicSequenceInfo.m; sourceTree = "<group>"; };
+		30F0C28424F8EBD4004D92D4 /* YMMidEmceeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMMidEmceeView.h; sourceTree = "<group>"; };
+		30F0C28524F8EBD4004D92D4 /* YMMidEmceeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMidEmceeView.m; sourceTree = "<group>"; };
+		61A7C93D2E1A04DFA0A173FA /* Pods_YMMicQueueView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMMicQueueView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.release.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.release.xcconfig"; sourceTree = "<group>"; };
+		F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMMicQueueView.debug.xcconfig"; path = "Target Support Files/Pods-YMMicQueueView/Pods-YMMicQueueView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		305AFB1524EF9A9200405B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305AFB6424EFA7FE00405B60 /* YMTool.framework in Frameworks */,
+				30BA3853250881CC001F9BEA /* YMWaterWave.framework in Frameworks */,
+				8B483B9BBF8B559687BA67DB /* Pods_YMMicQueueView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305AFB1E24EF9A9200405B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305AFB2224EF9A9200405B60 /* YMMicQueueView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14ADC9E8598B97508D2C9A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */,
+				6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		305AFB0E24EF9A9200405B60 = {
+			isa = PBXGroup;
+			children = (
+				305AFB1A24EF9A9200405B60 /* YMMicQueueView */,
+				305AFB2524EF9A9200405B60 /* YMMicQueueViewTests */,
+				305AFB1924EF9A9200405B60 /* Products */,
+				305AFB6224EFA7FE00405B60 /* Frameworks */,
+				14ADC9E8598B97508D2C9A3E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		305AFB1924EF9A9200405B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305AFB1824EF9A9200405B60 /* YMMicQueueView.framework */,
+				305AFB2124EF9A9200405B60 /* YMMicQueueViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305AFB1A24EF9A9200405B60 /* YMMicQueueView */ = {
+			isa = PBXGroup;
+			children = (
+				30BA3851250881C4001F9BEA /* YMWaterWave.framework */,
+				305AFB1B24EF9A9200405B60 /* YMMicQueueView.h */,
+				305AFBD224F1238000405B60 /* YMBase */,
+				305AFBCD24F116EC00405B60 /* protocol */,
+				305AFB3224EF9AF100405B60 /* YMMicSequenceView.h */,
+				305AFB3324EF9AF100405B60 /* YMMicSequenceView.m */,
+				30F0C28424F8EBD4004D92D4 /* YMMidEmceeView.h */,
+				30F0C28524F8EBD4004D92D4 /* YMMidEmceeView.m */,
+				305AFB6B24EFB01500405B60 /* YMMicView.h */,
+				305AFB6C24EFB01500405B60 /* YMMicView.m */,
+				305AFB7B24EFB7A100405B60 /* YMTopEmceeView.h */,
+				305AFB7C24EFB7A100405B60 /* YMTopEmceeView.m */,
+				305AFB9324F0C5D000405B60 /* YMMagicInfo.h */,
+				305AFB9424F0C5D000405B60 /* YMMagicInfo.m */,
+				305AFB3624EF9B3200405B60 /* YMMicSequenceInfo.h */,
+				30F0C28224F8EA02004D92D4 /* YMMicSequenceInfo.m */,
+				305AFB7F24EFBF4900405B60 /* YMQueueConfig.h */,
+				305AFB8024EFBF4900405B60 /* YMQueueConfig.m */,
+				305AFB3A24EF9B8100405B60 /* YMVChatType.h */,
+				305AFB1C24EF9A9200405B60 /* Info.plist */,
+				305AFBC824F1080200405B60 /* YMMicQueueView-PrefixHeader.pch */,
+			);
+			path = YMMicQueueView;
+			sourceTree = "<group>";
+		};
+		305AFB2524EF9A9200405B60 /* YMMicQueueViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				305AFB2624EF9A9200405B60 /* YMMicQueueViewTests.m */,
+				305AFB2824EF9A9200405B60 /* Info.plist */,
+			);
+			path = YMMicQueueViewTests;
+			sourceTree = "<group>";
+		};
+		305AFB6224EFA7FE00405B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305AFB6324EFA7FE00405B60 /* YMTool.framework */,
+				61A7C93D2E1A04DFA0A173FA /* Pods_YMMicQueueView.framework */,
+				305AFB8E24EFF71700405B60 /* YMWaterWave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		305AFBCD24F116EC00405B60 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				305AFBC924F1159600405B60 /* YMMicSequenceViewDelegate.h */,
+				305AFBCB24F1163100405B60 /* YMTopEmceeViewDelegate.h */,
+				305AFB9124EFF86800405B60 /* YMMicSequenceDelegate.h */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		305AFBD224F1238000405B60 /* YMBase */ = {
+			isa = PBXGroup;
+			children = (
+				305AFBCE24F1229600405B60 /* YMBaseView.h */,
+				305AFBCF24F1229600405B60 /* YMBaseView.m */,
+				305AFBD324F123A700405B60 /* YMObject.h */,
+				305AFBD424F123A700405B60 /* YMObject.m */,
+			);
+			path = YMBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		305AFB1324EF9A9200405B60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305AFBCA24F1159600405B60 /* YMMicSequenceViewDelegate.h in Headers */,
+				305AFBD524F123A700405B60 /* YMObject.h in Headers */,
+				305AFBD024F1229600405B60 /* YMBaseView.h in Headers */,
+				305AFB9224EFF86800405B60 /* YMMicSequenceDelegate.h in Headers */,
+				305AFB9524F0C5D000405B60 /* YMMagicInfo.h in Headers */,
+				305AFBCC24F1163100405B60 /* YMTopEmceeViewDelegate.h in Headers */,
+				305AFB7D24EFB7A100405B60 /* YMTopEmceeView.h in Headers */,
+				305AFB3824EF9B3200405B60 /* YMMicSequenceInfo.h in Headers */,
+				305AFB3B24EF9B8A00405B60 /* YMVChatType.h in Headers */,
+				305AFB3424EF9AF100405B60 /* YMMicSequenceView.h in Headers */,
+				305AFB2924EF9A9200405B60 /* YMMicQueueView.h in Headers */,
+				305AFB8124EFBF4900405B60 /* YMQueueConfig.h in Headers */,
+				305AFB6D24EFB01500405B60 /* YMMicView.h in Headers */,
+				30F0C28624F8EBD4004D92D4 /* YMMidEmceeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		305AFB1724EF9A9200405B60 /* YMMicQueueView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305AFB2C24EF9A9200405B60 /* Build configuration list for PBXNativeTarget "YMMicQueueView" */;
+			buildPhases = (
+				91B0AB14D048A68A0AE7C2DD /* [CP] Check Pods Manifest.lock */,
+				305AFB1324EF9A9200405B60 /* Headers */,
+				305AFB1424EF9A9200405B60 /* Sources */,
+				305AFB1524EF9A9200405B60 /* Frameworks */,
+				305AFB1624EF9A9200405B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMMicQueueView;
+			productName = YMMicQueueView;
+			productReference = 305AFB1824EF9A9200405B60 /* YMMicQueueView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		305AFB2024EF9A9200405B60 /* YMMicQueueViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305AFB2F24EF9A9200405B60 /* Build configuration list for PBXNativeTarget "YMMicQueueViewTests" */;
+			buildPhases = (
+				305AFB1D24EF9A9200405B60 /* Sources */,
+				305AFB1E24EF9A9200405B60 /* Frameworks */,
+				305AFB1F24EF9A9200405B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305AFB2424EF9A9200405B60 /* PBXTargetDependency */,
+			);
+			name = YMMicQueueViewTests;
+			productName = YMMicQueueViewTests;
+			productReference = 305AFB2124EF9A9200405B60 /* YMMicQueueViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		305AFB0F24EF9A9200405B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = aio;
+				TargetAttributes = {
+					305AFB1724EF9A9200405B60 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					305AFB2024EF9A9200405B60 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 305AFB1224EF9A9200405B60 /* Build configuration list for PBXProject "YMMicQueueView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 305AFB0E24EF9A9200405B60;
+			productRefGroup = 305AFB1924EF9A9200405B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				305AFB1724EF9A9200405B60 /* YMMicQueueView */,
+				305AFB2024EF9A9200405B60 /* YMMicQueueViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		305AFB1624EF9A9200405B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305AFB1F24EF9A9200405B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91B0AB14D048A68A0AE7C2DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMMicQueueView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305AFB1424EF9A9200405B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305AFB6E24EFB01500405B60 /* YMMicView.m in Sources */,
+				305AFBD624F123A700405B60 /* YMObject.m in Sources */,
+				305AFB8224EFBF4900405B60 /* YMQueueConfig.m in Sources */,
+				305AFB9624F0C5D000405B60 /* YMMagicInfo.m in Sources */,
+				305AFBD124F1229600405B60 /* YMBaseView.m in Sources */,
+				305AFB7E24EFB7A100405B60 /* YMTopEmceeView.m in Sources */,
+				30F0C28324F8EA03004D92D4 /* YMMicSequenceInfo.m in Sources */,
+				305AFB3524EF9AF100405B60 /* YMMicSequenceView.m in Sources */,
+				30F0C28724F8EBD4004D92D4 /* YMMidEmceeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305AFB1D24EF9A9200405B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305AFB2724EF9A9200405B60 /* YMMicQueueViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		305AFB2424EF9A9200405B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305AFB1724EF9A9200405B60 /* YMMicQueueView */;
+			targetProxy = 305AFB2324EF9A9200405B60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		305AFB2A24EF9A9200405B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		305AFB2B24EF9A9200405B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		305AFB2D24EF9A9200405B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08CE9D1317B19BA18C20688 /* Pods-YMMicQueueView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMMicQueueView",
+					"\"$(SRCROOT)/../PeiPei/libs\"",
+				);
+				GCC_PREFIX_HEADER = "YMMicQueueView/YMMicQueueView-PrefixHeader.pch";
+				INFOPLIST_FILE = YMMicQueueView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YM.YMMicQueueView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		305AFB2E24EF9A9200405B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE5233A039E584B0546496A /* Pods-YMMicQueueView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMMicQueueView",
+					"\"$(SRCROOT)/../PeiPei/libs\"",
+				);
+				GCC_PREFIX_HEADER = "YMMicQueueView/YMMicQueueView-PrefixHeader.pch";
+				INFOPLIST_FILE = YMMicQueueView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YM.YMMicQueueView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		305AFB3024EF9A9200405B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMMicQueueViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YM.YMMicQueueViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		305AFB3124EF9A9200405B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YMMicQueueViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YM.YMMicQueueViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		305AFB1224EF9A9200405B60 /* Build configuration list for PBXProject "YMMicQueueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305AFB2A24EF9A9200405B60 /* Debug */,
+				305AFB2B24EF9A9200405B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305AFB2C24EF9A9200405B60 /* Build configuration list for PBXNativeTarget "YMMicQueueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305AFB2D24EF9A9200405B60 /* Debug */,
+				305AFB2E24EF9A9200405B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305AFB2F24EF9A9200405B60 /* Build configuration list for PBXNativeTarget "YMMicQueueViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305AFB3024EF9A9200405B60 /* Debug */,
+				305AFB3124EF9A9200405B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 305AFB0F24EF9A9200405B60 /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+//  YMMicQueueView-PrefixHeader.pch
+//  YMMicQueueView
+//
+//  Created by aio on 2020/8/22.
+//  Copyright © 2020 aio. All rights reserved.
+//
+
+#ifndef YMMicQueueView_PrefixHeader_pch
+#define YMMicQueueView_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YMMicQueueView_PrefixHeader_pch */
+
+
+#import <YMTool/YMDLog.h>
+#import "YMBaseView.h"
+#import "YMObject.h"
+
